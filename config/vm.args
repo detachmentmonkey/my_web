@@ -1,0 +1,6 @@
+-sname my_web
+
+-setcookie my_web_cookie
+
++K true
++A30

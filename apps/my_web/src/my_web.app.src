@@ -1,0 +1,19 @@
+{application, my_web,
+ [{description, "An OTP application"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, { my_web_app, []}},
+  {applications,
+   [kernel,
+    stdlib,
+    cowboy,
+    recon,
+    lager
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {maintainers, []},
+  {licenses, []},
+  {links, []}
+ ]}.
